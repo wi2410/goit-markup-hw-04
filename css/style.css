@@ -203,6 +203,7 @@ address {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
   0px 1px 2px rgba(0, 0, 0, 0.08),
   0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: none;
 }
 
 
@@ -378,17 +379,18 @@ img {
   display: block;
   object-position: center;
 }
-.icon-client {
+.client {
   fill: var(--icon-color);
   padding: 16px 32px;
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
 }
-.icon-client:hover,
-.icon-client:focus {
+.client:hover,
+.client:focus {
   border-color: var(--hover-color);
   fill: var(--hover-color);
+  outline: none;
 }
 
 .portfolio-link {
@@ -399,6 +401,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
   0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: none;
 }
 .head-footer {
   font-weight: 700;
@@ -434,6 +437,7 @@ img {
 .footer-social:hover,
 .footer-social:focus {
   background: var(--hover-color);
+  outline: none;
 }
 .social-item:not(:last-child) {
   margin-right: 10px;
@@ -457,6 +461,7 @@ img {
   background-color: var(--hover-color);
   border-radius: 50%;
   fill: var(--accent-color);
+  outline: none;
 }
 
 .tumb {
